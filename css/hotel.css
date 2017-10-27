@@ -1,0 +1,376 @@
+.banner {
+  width: 100%;
+  height: 520px;
+  background: url('../images/hotel-banner.png') left top no-repeat;
+  background-size: cover;
+}
+.banner .content {
+  overflow: hidden;
+}
+.banner .content p {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 10px;
+}
+.banner .content .p-one {
+  font-size: 36px;
+  margin-top: 220px;
+  letter-spacing: normal;
+}
+.banner .content .p-two {
+  font-family: 宋体;
+  margin-top: 10px;
+}
+.tap-column {
+  width: 100%;
+  position: relative;
+  background: #f8f9fb;
+}
+.tap-column .cnt {
+  height: 85px;
+}
+.tap-column .cnt .tap {
+  width: 100%;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+.tap-column .cnt .tap ul {
+  width: 100%;
+  padding: 0 280px;
+  box-sizing: border-box;
+  display: flex;
+  display: -webkit-box;
+}
+.tap-column .cnt .tap ul li {
+  line-height: 50px;
+  font-size: 16px;
+  padding: 0 10px;
+  color: #919bb4;
+  border-bottom: 5px solid #919bb4;
+  margin-left: 65px;
+}
+.tap-column .cnt .tap ul .active {
+  border-bottom-color: #154285;
+  color: #154285;
+}
+.tap-column .cnt .tap ul li:first-child {
+  margin: 0;
+}
+.ones {
+  width: 100%;
+  padding-top: 50px;
+  background: #f8f9fb;
+}
+.ones .one-cnt {
+  padding: 0 40px;
+  box-sizing: border-box;
+  display: flex;
+  display: -webkit-flex;
+}
+.ones .one-cnt .one-l {
+  width: 380px;
+  text-align: center;
+}
+.ones .one-cnt .one-l p {
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 56px;
+  line-height: 28px;
+}
+.ones .one-cnt .one-l .p-bottom {
+  color: #154285;
+  padding-left: 42px;
+  position: relative;
+  box-sizing: border-box;
+}
+.ones .one-cnt .one-l .p-bottom:after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url('../images/square4b-icon-ty.png') left top;
+  background-size: cover;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ones .one-cnt .one-r {
+  flex: 1;
+  margin-left: 55px;
+  width: 775px;
+}
+.ones .one-cnt .one-r .pic-two img {
+  width: 770px;
+  height: auto;
+}
+.ones .one-cnt .one-r .pic-two-p {
+  text-align: right;
+  padding-right: 40px;
+  position: relative;
+  box-sizing: border-box;
+  color: #154285;
+}
+.ones .one-cnt .one-r .pic-two-p:after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url('../images/square4b-icon-ty.png') left top;
+  background-size: cover;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.twos {
+  width: 100%;
+  background: #f8f9fb;
+}
+.twos .two-cnt {
+  padding: 76px;
+  box-sizing: border-box;
+}
+.twos .two-cnt .two-cnt-l {
+  width: 275px;
+  float: left;
+}
+.twos .two-cnt .two-cnt-l p {
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.twos .two-cnt .two-cnt-r {
+  width: 800px;
+  float: right;
+}
+.twos .two-cnt .two-cnt-r img {
+  width: 100%;
+  height: auto;
+}
+.threes {
+  width: 100%;
+  height: 440px;
+  overflow: hidden;
+  padding-top: 40px;
+  background: #f8f9fb;
+}
+.threes .three-cnt {
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+.threes .three-cnt .three-cnt-l {
+  width: 420px;
+  float: left;
+}
+.threes .three-cnt .three-cnt-l h3 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 60px;
+}
+.threes .three-cnt .three-cnt-l p {
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 40px;
+  margin-top: 25px;
+}
+.threes .three-cnt .three-cnt-l .bottom {
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+}
+.threes .three-cnt .three-cnt-l .bottom .bottom-l {
+  text-align: left;
+}
+.threes .three-cnt .three-cnt-l .bottom .bottom-l img {
+  width: 100%;
+}
+.threes .three-cnt .three-cnt-l .bottom .bottom-l p {
+  padding-left: 32px;
+  color: #234582;
+  box-sizing: border-box;
+  position: relative;
+  margin: 8px 0 0 0;
+}
+.threes .three-cnt .three-cnt-l .bottom .bottom-l p:after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url('../images/square4b-icon-ly.png') left top no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.threes .three-cnt .three-cnt-l .bottom .bottom-r {
+  text-align: left;
+  margin-left: 26px;
+}
+.threes .three-cnt .three-cnt-l .bottom .bottom-r img {
+  width: 100%;
+}
+.threes .three-cnt .three-cnt-l .bottom .bottom-r p {
+  padding-left: 32px;
+  color: #234582;
+  box-sizing: border-box;
+  position: relative;
+  margin: 8px 0 0 0;
+}
+.threes .three-cnt .three-cnt-l .bottom .bottom-r p:after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url('../images/square4b-icon-ly.png') left top no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.threes .three-cnt .three-cnt-r {
+  width: 730px;
+  float: left;
+  margin-left: 45px;
+}
+.threes .three-cnt .three-cnt-r .pic-t img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.threes .three-cnt .three-cnt-r .pic-t p {
+  padding-left: 32px;
+  color: #234582;
+  box-sizing: border-box;
+  position: relative;
+  text-align: right;
+  margin: 15px 0 0 0;
+}
+.threes .three-cnt .three-cnt-r .pic-t p:after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url('../images/square4b-icon-ly.png') left top no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 470px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.fours {
+  width: 100%;
+  padding: 40px 0;
+  background: #f8f9fb;
+}
+.fours .four-cnt {
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+.fours .four-cnt .four-cnt-l {
+  width: 420px;
+  float: left;
+}
+.fours .four-cnt .four-cnt-l .top {
+  margin: 36px 0;
+  padding: 0 0 0 22px;
+}
+.fours .four-cnt .four-cnt-l .top ul {
+  width: 100%;
+}
+.fours .four-cnt .four-cnt-l .top ul li {
+  line-height: 26px;
+  font-size: 16px;
+  list-style: disc;
+}
+.fours .four-cnt .four-cnt-l .bottom {
+  width: 100%;
+}
+.fours .four-cnt .four-cnt-l .bottom img {
+  width: 100%;
+}
+.fours .four-cnt .four-cnt-l .bottom p {
+  padding-left: 32px;
+  color: #234582;
+  box-sizing: border-box;
+  position: relative;
+  margin: 8px 0 0 0;
+}
+.fours .four-cnt .four-cnt-l .bottom p:after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url('../images/square4b-icon-ly.png') left top no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.fours .four-cnt .four-cnt-r {
+  float: left;
+  width: 730px;
+  margin-left: 45px;
+}
+.fours .four-cnt .four-cnt-r img {
+  width: 100%;
+  height: auto;
+}
+.fours .four-cnt .four-cnt-r p {
+  padding-left: 32px;
+  color: #234582;
+  box-sizing: border-box;
+  position: relative;
+  margin: 8px 0 0 0;
+  text-align: right;
+}
+.fours .four-cnt .four-cnt-r p:after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url('../images/square4b-icon-ty.png') left top no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 610px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.fives {
+  width: 100%;
+  padding: 40px 0;
+  background: #f8f9fb;
+}
+.fives .five-cnt {
+  padding: 0 40px;
+}
+.fives .five-cnt .five-cnt-l {
+  width: 775px;
+  float: left;
+}
+.fives .five-cnt .five-cnt-l img {
+  width: 775px;
+  height: auto;
+}
+.fives .five-cnt .five-cnt-r {
+  width: 365px;
+  float: left;
+  margin-left: 40px;
+}
+.fives .five-cnt .five-cnt-r .top h3 {
+  font-size: 16px;
+  margin: 30px 0 16px 0;
+}
+.fives .five-cnt .five-cnt-r .top p {
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 58px;
+}
+.fives .five-cnt .five-cnt-r .pic img {
+  width: 100%;
+  height: auto;
+}

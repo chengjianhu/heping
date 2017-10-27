@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="30px" viewBox="0 0 20 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>location</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页_全球分布" transform="translate(-640.000000, -233.000000)" fill="#b3900e">
+            <g id="dots" transform="translate(483.000000, 233.000000)">
+                <path d="M167,0 C161.471429,0 157,4.59066667 157,10.2666667 C157,17.9666667 167,29.3333333 167,29.3333333 C167,29.3333333 177,17.9666667 177,10.2666667 C177,4.59066667 172.528571,0 167,0 L167,0 Z M167,13.9333333 C165.028571,13.9333333 163.428571,12.2906667 163.428571,10.2666667 C163.428571,8.24266667 165.028571,6.6 167,6.6 C168.971429,6.6 170.571429,8.24266667 170.571429,10.2666667 C170.571429,12.2906667 168.971429,13.9333333 167,13.9333333 L167,13.9333333 Z" id="location"></path>
+            </g>
+        </g>
+    </g>
+</svg>

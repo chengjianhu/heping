@@ -1,0 +1,19 @@
+.banner {
+  width: 100%;
+  height: 520px;
+  background: url('../images/recruit2-banner.png') left top no-repeat;
+  background-size: cover;
+}
+.banner .content {
+  overflow: hidden;
+}
+.banner .content p {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 32px;
+}
+.banner .content .p-one {
+  font-size: 36px;
+  margin-top: 220px;
+}

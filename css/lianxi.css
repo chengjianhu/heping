@@ -1,0 +1,162 @@
+.navigation-b .news-nav {
+  margin-left: 108px;
+}
+.banner {
+  width: 100%;
+  height: 520px;
+  background: url('../images/square-banner.png') left top no-repeat;
+  background-size: cover;
+}
+.banner .content {
+  overflow: hidden;
+}
+.banner .content p {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 32px;
+}
+.banner .content .p-one {
+  font-size: 36px;
+  margin-top: 220px;
+}
+.navigation-b {
+  height: 130px;
+  overflow: hidden;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.navigation-b .navigation-b-ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  padding: 30px 0 0 0;
+  box-sizing: border-box;
+  margin-left: 0;
+  background: #f4f4f4;
+}
+.navigation-b .navigation-b-ul li {
+  float: left;
+  flex: 1;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navigation-b .navigation-b-ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.navigation-b .navigation-b-ul li a p {
+  color: blue;
+  font-size: 12px;
+  text-align: center;
+  color: #9c9c9c;
+  margin: 0;
+  padding: 0;
+}
+.navigation-b .navigation-b-ul li a .p-move {
+  margin-top: 12px;
+}
+.navigation-b .navigation-b-ul li a .icon {
+  text-align: center;
+  height: 40px;
+}
+.navigation-b .navigation-b-ul li a .icon img {
+  width: 24px;
+  height: auto;
+}
+.navigation-b .navigation-b-ul li a .icon .introduce-icon-2 {
+  width: 30px;
+  height: auto;
+}
+.navigation-b .navigation-b-ul li a .icon .introduce-icon-3 {
+  width: 34px;
+  height: auto;
+}
+.navigation-b .navigation-b-ul li a .icon .introduce-icon-4 {
+  width: 37px;
+  height: auto;
+}
+.navigation-b .navigation-b-ul li a .icon .introduce-icon-5 {
+  width: 31px;
+  height: auto;
+}
+.navigation-b .navigation-b-ul li a .icon .introduce-icon-6 {
+  width: 32px;
+  height: auto;
+}
+.navigation-b .navigation-b-ul .li-diff a p {
+  padding: 0 70px;
+}
+.adress {
+  width: 100%;
+  margin-bottom: 100px;
+}
+.adress .adress-cnt .left {
+  width: 335px;
+  height: 580px;
+  background: #f2f5fa;
+  float: left;
+}
+.adress .adress-cnt .left ul {
+  width: 100%;
+  height: 580px;
+  box-sizing: border-box;
+}
+.adress .adress-cnt .left ul .li-pad {
+  padding-left: 36px ;
+}
+.adress .adress-cnt .left ul li {
+  width: 100%;
+  height: 56px;
+  padding: 0;
+  padding-right: 75px;
+  box-sizing: border-box;
+}
+.adress .adress-cnt .left ul li h2 {
+  font-size: 14px;
+  line-height: 56px;
+  border-bottom: 1px solid #cccccc;
+}
+.adress .adress-cnt .left ul li:last-child h2 {
+  border: 0;
+}
+.adress .adress-cnt .left ul .active {
+  height: 120px;
+  background: #43679b;
+  color: #ffffff;
+  position: relative;
+}
+.adress .adress-cnt .left ul .active h2 {
+  border: none;
+}
+.adress .adress-cnt .left ul .active p {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 22px;
+}
+.adress .adress-cnt .left ul .active:after {
+  content: '';
+  display: block;
+  width: 13px;
+  height: 24px;
+  background: url('../images/icon-arrow-rs.png') left top no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.adress .adress-cnt .right {
+  width: 910px;
+  height: 580px;
+  background: #cccccc;
+  margin-left: 370px;
+}
+.adress .adress-cnt .right #allmap {
+  width: 100%;
+  height: 100%;
+}
